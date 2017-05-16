@@ -2,9 +2,9 @@
 Coursera Getting and Cleaning Data course project
 
 **Porpuse of this document**
-  > 1. Tell what documents Getting-and-Cleaning-Data repository contains,  
-  > 2. Tell a little about the course project,  
-  > 3. Help on understanding and running the run_analysis.R script.  
+  * Tell what documents Getting-and-Cleaning-Data repository contains,  
+  * Tell a little about the course project,  
+  * Help on understanding and running the run_analysis.R script.  
 
 _What documents Getting-and-Cleaning-Data repository contains_
 
