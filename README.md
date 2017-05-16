@@ -8,11 +8,11 @@ Coursera Getting and Cleaning Data course project
 
 _What documents Getting-and-Cleaning-Data repository contains_
 
-1. README.md
+1. README.md  
   Current document
-2. run_analysis.R
+2. run_analysis.R  
   The script to transform data from Coursera website to a tidy data
-3. CodeBook.md
+3. CodeBook.md  
   List of all variables with their types and descriptions
   
 _Tell a little about the course project_
