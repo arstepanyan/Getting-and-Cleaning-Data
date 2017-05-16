@@ -7,7 +7,7 @@ Coursera Getting and Cleaning Data course project
   * Help on understanding and running the run_analysis.R script.  
 
 ### What documents Getting-and-Cleaning-Data repository contains
-1. README.md
+1. README.md  
     _Current document_
 2. run_analysis.R  
     _The script to transform data from Coursera website to a tidy data_
