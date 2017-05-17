@@ -54,7 +54,7 @@ View(data)
 ## References
 1. David Hood's post  
     [Coursera discussion forums about David Hood's post](https://www.coursera.org/learn/data-cleaning/discussions/weeks/4/threads/g7dwW25DEeaFmBJqjnMcrw)  
-    [Getting and Cleaning the Assignment, Davit Hood](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/)
+    [Getting and Cleaning the Assignment, David Hood](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/)
 2. ["Tidy Data", Journal of Statistical Software, Hadley Wickham](http://vita.had.co.nz/papers/tidy-data.pdf)
 3. [Coursera discussion by Luis Sandino](https://www.coursera.org/learn/data-cleaning/discussions/weeks/4/threads/wDoBFcHgEeWjNw6BzriyBQ)
 
