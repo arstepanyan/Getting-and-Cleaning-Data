@@ -1,10 +1,10 @@
 # DATA DICTIONARY - HUMAN ACTIVITY RECOGNITION USING SMARTPHONES DATASET
 
-IndividualsID    int  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Subjects who performed the activity  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 01..30    .Unique identifier assigned to each individual
+* IndividualsID  
+    * Subjects who performed the activity  
+         * 01..30    .Unique identifier assigned to each individual
 
-* Activities    factor
+* Activities
     * Activities performed by subjects
         * LAYING
         * SITTING
@@ -14,263 +14,264 @@ IndividualsID    int
         * WALKING_UPSTAIRS
 
 All the varibles below are averages for each activity and each subject.
+They all are bounded within [-1,1].
 
-* TimeBodyAccMeanX    num
+* TimeBodyAccMeanX
     * Mean values of time domain body acceleration signals in X direction
 
-* TimeBodyAccMeanY    num
+* TimeBodyAccMeanY
     * Mean values of time domain body acceleration signals in Y direction
 
-* TimeBodyAccMeanZ    num
+* TimeBodyAccMeanZ
     * Mean values of time domain body acceleration signals in Z direction
 
-* TimeBodyAccStdX    num
+* TimeBodyAccStdX
     * Standard deviations of time domain body acceleration signals in X direction
 
-* TimeBodyAccStdY    num
+* TimeBodyAccStdY
     * Standard deviations of time domain body acceleration signals in Y direction
 
-* TimeBodyAccStdZ    num
+* TimeBodyAccStdZ
     * Standard deviations of time domain body acceleration signals in Z direction
 
-* TimeGravityAccMeanX    num
+* TimeGravityAccMeanX
     * Mean values of time domain gravity acceleration signals in X direction
 
-* TimeGravityAccMeanY    num
+* TimeGravityAccMeanY
     * Mean values of time domain gravity acceleration signals in Y direction
 
-* TimeGravityAccMeanZ    num
+* TimeGravityAccMeanZ
     * Mean values of time domain gravity acceleration signals in Z direction
 
-* TimeGravityAccStdX    num
+* TimeGravityAccStdX  
     * Standard deviations of time domain gravity acceleration signals in X direction
 
-* TimeGravityAccStdY    num
+* TimeGravityAccStdY
     * Standard deviations of time domain gravity acceleration signals in Y direction
 
-* TimeGravityAccStdZ    num
+* TimeGravityAccStdZ
     * Standard deviation of time domain gravity acceleration signals in Z direction
 
-* TimeBodyAccJerkMeanX    num
+* TimeBodyAccJerkMeanX   
     * Mean values of time domain body acceleration Jerk signals in X direction
 
-* TimeBodyAccJerkMeanY    num
+* TimeBodyAccJerkMeanY   
     * Mean values of time domain body acceleration Jerk signals in Y direction
 
-* TimeBodyAccJerkMeanZ    num
+* TimeBodyAccJerkMeanZ   
     * Mean values of time domain body acceleration Jerk signals in Z direction
 
-* TimeBodyAccJerkStdX    num
+* TimeBodyAccJerkStdX   
     * Standard deviations of time domain body acceleration Jerk signals in X direction
 
-* TimeBodyAccJerkStdY    num
+* TimeBodyAccJerkStdY    
     * Standard deviations of time domain body acceleration Jerk signals in Y direction
 
-* TimeBodyAccJerkStdZ    num
+* TimeBodyAccJerkStdZ    
     * Average of standard deviation of time domain body acceleration Jerk signal in Z direction
 
-* TimeBodyGyroMeanX    num
+* TimeBodyGyroMeanX    
     * Mean values of time domain body angular velocity signals in X direction
 
-* TimeBodyGyroMeanY    num
+* TimeBodyGyroMeanY    
     * Mean values of time domain body angular velocity signals in Y direction
 
-* TimeBodyGyroMeanZ    num
+* TimeBodyGyroMeanZ    
     * Mean values of time domain body angular velocity signals in Z direction
 
-* TimeBodyGyroStdX    num
+* TimeBodyGyroStdX    
     * Standard deviations of time domain body angular velocity signals in X direction
 
-* TimeBodyGyroStdY    num
+* TimeBodyGyroStdY    
     * Standard deviations of time domain body angular velocity signals in Y direction
 
-* TimeBodyGyroStdZ    num
+* TimeBodyGyroStdZ    
     * Standard deviations of time domain body angular velocity signals in Z direction
 
-* TimeBodyGyroJerkMeanX    num
+* TimeBodyGyroJerkMeanX    
     * Mean values of time domain body angular velocity Jerk signals in X direction
 
-* TimeBodyGyroJerkMeanY    num
+* TimeBodyGyroJerkMeanY    
     * Mean values of time domain body angular velocity Jerk signals in Y direction
 
-* TimeBodyGyroJerkMeanZ    num
+* TimeBodyGyroJerkMeanZ    
     * Mean values of time domain body angular velocity Jerk signals in Z direction
 
-* TimeBodyGyroJerkMeanX    num
+* TimeBodyGyroJerkMeanX    
     * Standard deviations of time domain body angular velocity Jerk signals in X direction
 
-* TimeBodyGyroJerkMeanY    num
+* TimeBodyGyroJerkMeanY    
     * Standard deviations of time domain body angular velocity Jerk signals in Y direction
 
-* TimeBodyGyroJerkMeanZ    num
+* TimeBodyGyroJerkMeanZ    
     * Standard deviations of time domain body angular velocity Jerk signals in Z direction
 
-* TimeBodyAccMagMean    num
+* TimeBodyAccMagMean    
     * Mean magnitudes of three-dimentional body acceleration signals (time domain)
 
-* TimeBodyAccMagStd    num
+* TimeBodyAccMagStd    
     * Standard deviations of three-dimentional body acceleration signals' magnitude (time domain)
 
-* TimeGravityAccMagMean    num
+* TimeGravityAccMagMean    
     * Mean magnitudes of three-dimentional gravity acceleration signals (time domain)
 
-* TimeGravityAccMagStd    num
+* TimeGravityAccMagStd    
     * Standard deviations of three-dimentional gravity acceleration signals' magnitudes (time domain)
 
-* TimeBodyAccJerkMagMean    num
+* TimeBodyAccJerkMagMean    
     * Mean magnitudes of three-dimentional body acceleration Jerk signals (time domain)
 
-* TimeBodyAccJerkMagStd    num
+* TimeBodyAccJerkMagStd    
     * Standard deviations of three-dimentional body acceleration Jerk signals' magnitudes (time domain)
 
-* TimeBodyGyroMagMean    num
+* TimeBodyGyroMagMean    
     * Mean magnitudes of three-dimentional body angular velocity signals (time domain)
 
-* TimeBodyGyroMagStd    num
+* TimeBodyGyroMagStd    
     * Standard deviations of three-dimentional body angular velocity signals' magnitudes (time domain)
 
-* TimeBodyGyroJerkMagMean    num
+* TimeBodyGyroJerkMagMean    
     * Mean magnitudes of three-dimentional body angular velocity Jerk signals (time domain)
 
-* TimeBodyGyroJerkMagStd    num
+* TimeBodyGyroJerkMagStd    
     * Standard deviations of three-dimentional body angular velocity Jerk signals' magnitudes (time domain)
 
-* FreqBodyAccMeanX    num
+* FreqBodyAccMeanX    
     * Mean values of frequency domain body acceleration signals in X direction
 
-* FreqBodyAccMeanY    num
+* FreqBodyAccMeanY    
     * Mean values of frequency domain body acceleration signals in Y direction
 
-* FreqBodyAccMeanZ    num
+* FreqBodyAccMeanZ   
     * Mean values of frequency domain body acceleration signals in Z direction
 
-* FreqBodyAccStdX    num
+* FreqBodyAccStdX    
     * Standard deviations of frequency domain body acceleration signals in X direction
 
-* FreqBodyAccStdY    num
+* FreqBodyAccStdY    
     * Standard deviations of frequency domain body acceleration signals in Y direction
 
-* FreqBodyAccStdZ    num
+* FreqBodyAccStdZ    
     * Sstandard deviation of frequency domain body acceleration signals in Z direction
 
-* FreqBodyAccMeanFreqX    num
+* FreqBodyAccMeanFreqX    
     * Mean frequencies of frequency domain body acceleration signals in X direction
 
-* FreqBodyAccMeanFreqY    num
+* FreqBodyAccMeanFreqY    
     * Mean frequencies of frequency domain body acceleration signals in Y direction
 
-* FreqBodyAccMeanFreqZ    num
+* FreqBodyAccMeanFreqZ    
     * Mean frequencies of frequency domain body acceleration signals in Z direction
  
-* FreqBodyAccJerkMeanX    num
+* FreqBodyAccJerkMeanX    
     * Mean values of frequency domain body acceleration Jerk signals in X direction
 
-* FreqBodyAccJerkMeanY    num
+* FreqBodyAccJerkMeanY    
     * Mean values of frequency domain body acceleration Jerk signals in Y direction
 
-* FreqBodyAccJerkMeanZ    num
+* FreqBodyAccJerkMeanZ    
     * Mean values of frequency domain body acceleration Jerk signals in Z direction
 
-* FreqBodyAccJerkStdX    num
+* FreqBodyAccJerkStdX    
     * Standard deviations of frequency domain body acceleration Jerk signals in X direction
 
-* FreqBodyAccJerkStdY    num
+* FreqBodyAccJerkStdY    
     * Standard deviations of frequency domain body acceleration Jerk signals in Y direction
 
-* FreqBodyAccJerkStdZ    num
+* FreqBodyAccJerkStdZ    
     * Standard deviations of frequency domain body acceleration Jerk signals in Z direction
 
-* FreqBodyAccJerkMeanFreqX    num
+* FreqBodyAccJerkMeanFreqX    
     * Mean frequencies of frequency domain body acceleration Jerk signals in X direction
 
-* FreqBodyAccJerkMeanFreqY    num
+* FreqBodyAccJerkMeanFreqY    
     * Mean frequencies of frequency domain body acceleration Jerk signals in Y direction
 
-* FreqBodyAccJerkMeanFreqZ    num
+* FreqBodyAccJerkMeanFreqZ    
     * Mean frequencies of frequency domain body acceleration Jerk signals in Z direction
 
-* FreqBodyGyroMeanX    num
+* FreqBodyGyroMeanX    
     * Mean values of frequency domain body angular velocity signals in X direction
 
-* FreqBodyGyroMeanY    num
+* FreqBodyGyroMeanY    
     * Mean values of frequency domain body angular velocity signals in Y direction
 
-* FreqBodyGyroMeanZ    num
+* FreqBodyGyroMeanZ    
     * Mean values of frequency domain body angular velocity signals in Z direction
 
-* FreqBodyGyroStdX    num
+* FreqBodyGyroStdX    
     * Standard deviations of frequency domain body angular velocity signals in X direction
 
-* FreqBodyGyroStdY    num
+* FreqBodyGyroStdY    
     * Standard deviations of frequency domain body angular velocity signals in Y direction
 
-* FreqBodyGyroStdZ    num
+* FreqBodyGyroStdZ    
     * Standard deviations of frequency domain body angular velocity signals in Z direction
 
-* FreqBodyGyroMeanFreqX    num
+* FreqBodyGyroMeanFreqX    
     * Mean frequencies of frequency domain body angular velocity signals in X direction
 
-* FreqBodyGyroMeanFreqY    num
+* FreqBodyGyroMeanFreqY    
     * Mean frequencies of frequency domain body angular velocity signals in Y direction
 
-* FreqBodyGyroMeanFreqZ    num
+* FreqBodyGyroMeanFreqZ    
     * Mean frequencies of frequency domain body angular velocity signals in Z direction
 
-* FreqBodyAccMagMean    num
+* FreqBodyAccMagMean    
     * Mean magnitudes of three-dimentional body acceleration signals (frequency domain)
 
-* FreqBodyAccMagStd    num
+* FreqBodyAccMagStd    
     * Standard deviations of three-dimentional body acceleration signals' magnitudes (frequency domain)
 
-* FreqBodyAccMagMeanFreq    num
+* FreqBodyAccMagMeanFreq    
     * Mean frequencies of three-dimentional body acceleration signals' magnitudes (frequency domain)
 
-* FreqBodyAccJerkMagMean    num
+* FreqBodyAccJerkMagMean    
     * Mean magnitudes of three-dimentional body acceleration Jerk signals (frequency domain)
 
-* FreqBodyAccJerkMagStd    num
+* FreqBodyAccJerkMagStd    
     * Standard deviations of three-dimentional body acceleration Jerk signals' magnitudes (frequency domain)
 
-* FreqBodyAccJerkMagMeanFreq    num
+* FreqBodyAccJerkMagMeanFreq    
     * Mean frequencies of three-dimentional body acceleration Jerk signals' magnitudes (frequency domain)
 
-* FreqBodyGyroMagMean    num
+* FreqBodyGyroMagMean    
     * Mean magnitudes of three-dimentional body angular velocity signals (frequency domain)
 
-* FreqBodyGyroMagStd    num
+* FreqBodyGyroMagStd    
     * Standard deviations of three-dimentional body angular velocity signals' magnitudes (frequency domain)
 
-* FreqBodyGyroMagMeanFreq    num
+* FreqBodyGyroMagMeanFreq    
     *  Mean frequencies of three-dimentional body angular velocity signals' magnitudes (frequency domain)
 
-* FreqBodyGyroJerkMagMean    num
+* FreqBodyGyroJerkMagMean    
     * Mean magnitudes of three-dimentional body angular velocity Jerk signals (frequency domain)
 
-* FreqBodyGyroJerkMagStd    num
+* FreqBodyGyroJerkMagStd    
     * Standard deviations of three-dimentional body angular velocity Jerk signals' magnitudes (frequency domain)
 
-* FreqBodyGyroJerkMagMeanFreq    num
+* FreqBodyGyroJerkMagMeanFreq    
     * Mean frequencies of three-dimentional body angular velocity Jerk signals' magnitudes (frequency domain)
 
-* AngleTimeBodyAccMeanGravity    num
+* AngleTimeBodyAccMeanGravity    
     * Mean gravities of time domain body acceleration signals used on the angle() variable
 
-* AngleTimeBodyAccJerkMeanGravityMean     num
+* AngleTimeBodyAccJerkMeanGravityMean     
     * Averages of mean gravities of time domain body acceleration Jerk signals used on the angle() variable
 
-* AngleTimeBodyGyroMeanGravityMean    num
+* AngleTimeBodyGyroMeanGravityMean    
     * Averages of mean gravities of time domain body angular velocity signals used on the angle() variable
 
-* AngleTimeBodyGyroJerkMeanGravityMean    num
+* AngleTimeBodyGyroJerkMeanGravityMean    
     * Averages of mean gravities of time domain body angular velocity Jerk signals used on the angle() variable
 
-* AngleXGravityMean    num
+* AngleXGravityMean    
     * Mean values of gravities in X direction used on the angle() variable
 
-* AngleYGravityMean    num
+* AngleYGravityMean    
     * Mean values of gravities in Y direction used on the angle() variable
 
-* AngleZGravityMean    num
+* AngleZGravityMean    
     * Mean values of gravities in Z direction used on the angle() variable
 
 
