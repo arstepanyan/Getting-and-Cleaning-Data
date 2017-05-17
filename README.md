@@ -38,23 +38,22 @@ Selects only columns of means and stds.
 
 * Before running run_analysis.R make sure you have Samsung data in your working directory.
 * When you run run_analysis.R the resulting tidy data is written into tidy_data.txt file. This file will be created in your working directory. Make sure you don't have another file with the same name as you will lose it.
-* The command for reading tidy_data.txt into R and looking at it in R would be(_taken from David Hood: https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/_):
+* The command for reading tidy_data.txt into R and looking at it in R would be (taken from [David Hood's post](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/))
     <data <- read.table(file_path, header = TRUE)>
     <View(data)>  
-* To view the data I submitted in Coursera site, run the following code (taken from [David Hood' s post](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/):
+* To view the data I submitted in Coursera site, run the following code (taken from [David Hood' s post](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/))
     <address <- "https://s3.amazonaws.com/coursera-uploads/peer-review/c2bb9231d83f0442ee6110a7f7d1d0f1/tidy_data.txt">
     <address <- sub("^https", "http", address)>
     <data <- read.table(url(address), header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different>
     <View(data)>
     
 ## References
-1. David Hood post.
-    Coursera discussion: https://www.coursera.org/learn/data-cleaning/discussions/weeks/4/threads/g7dwW25DEeaFmBJqjnMcrw
-    Post link: https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/
-2. "Tidy Data", Journal of Statistical Software, Hadley Wickham.
-    http://vita.had.co.nz/papers/tidy-data.pdf
+1. David Hood's post
+    [Coursera discussion forums on David Hood's post](https://www.coursera.org/learn/data-cleaning/discussions/weeks/4/threads/g7dwW25DEeaFmBJqjnMcrw)
+    [Getting and Cleaning the Assignment, Davit Hood](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/)
+2. ["Tidy Data", Journal of Statistical Software, Hadley Wickham](http://vita.had.co.nz/papers/tidy-data.pdf)
 3. Luis Sandino guide. 
-    Coursera discussion: https://www.coursera.org/learn/data-cleaning/discussions/weeks/4/threads/wDoBFcHgEeWjNw6BzriyBQ
+    [Coursera discussion by Luis Sandino](https://www.coursera.org/learn/data-cleaning/discussions/weeks/4/threads/wDoBFcHgEeWjNw6BzriyBQ)
     Guide link: https://drive.google.com/file/d/0B1r70tGT37UxYzhNQWdXS19CN1U/view
     
 
