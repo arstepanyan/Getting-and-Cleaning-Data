@@ -31,7 +31,7 @@ _How each part works_
 2. Reads features.txt file into a data frame and using _grep()_ finds features whith "mean" and "std" in their names.
 Selects only columns of means and stds.
 3. Reads activity_labels.txt into a data frame and uses those descriptive names to name the activities.
-4. A bunch of _gsub()_s change variable names into readable and understandable names.
+4. A bunch of _gsub()_ change variable names into readable and understandable names.
 5. Uses _dplyr_ package to group and summarize data. The result is our tidy data. Tidy data is then written into a file named tidy_data.txt in your working directory.
 
 **Running run_analysis.R script**  
