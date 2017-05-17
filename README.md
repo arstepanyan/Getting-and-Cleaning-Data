@@ -36,9 +36,9 @@ Selects only columns of means and stds.
 
 **Running run_analysis.R script**  
 
-* Before running run_analysis.R make sure you have Samsung data in your working directory.
-* When you run run_analysis.R the resulting tidy data is written into tidy_data.txt file. This file will be created in your working directory. Make sure you don't have another file with the same name as you will lose it.
-* The command for reading tidy_data.txt into R and looking at it in R would be (taken from [David Hood's post](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/))
+* Before running run_analysis.R script make sure you have Samsung data in your working directory.
+* When you run the script the resulting tidy data is written into tidy_data.txt file. This file will be created in your working directory. Make sure you don't have another file with the same name as you will lose it.
+* The command for reading tidy_data.txt back into R and looking at it in R would be (taken from [David Hood's post](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/))
     <data <- read.table(file_path, header = TRUE)>
     <View(data)>  
 * To view the data I submitted in Coursera site, run the following code (taken from [David Hood' s post](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/))
