@@ -47,7 +47,7 @@ Selects only columns of means and stds.
 ```R
 address <- "https://s3.amazonaws.com/coursera-uploads/peer-review/c2bb9231d83f0442ee6110a7f7d1d0f1/tidy_data.txt"
 address <- sub("^https", "http", address)
-data <- read.table(url(address), header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different
+data <- read.table(url(address), header = TRUE)
 View(data)
 ```
     
