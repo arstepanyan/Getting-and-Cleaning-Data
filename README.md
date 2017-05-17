@@ -11,7 +11,7 @@ Coursera Getting and Cleaning Data course project
 2. run_analysis.R  
     _The script to transform data from Coursera website to a tidy data_
 3. CodeBook.md  
-    _List of all variables in tidy data set with their types and descriptions_
+    _List of all variables in tidy data set with their descriptions_
   
 ### Understanding and running the run_analysis.R script
 
