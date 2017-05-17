@@ -1,5 +1,6 @@
 # Getting-and-Cleaning-Data
-Coursera Getting and Cleaning Data course project
+Coursera Getting and Cleaning Data course project. A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 
 ## Porpuse of this document
   * Tell what documents Getting-and-Cleaning-Data repository contains  
