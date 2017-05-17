@@ -29,7 +29,7 @@ _Five major parts of the code(Coursera site served as a guideline):_
 
 _How each part works_
 1. Reads Samsung data into data frames and using _cbind()_ and _rbind()_ creates one data set.
-2. Reads features.txt file into a data frame and using _grep()_ finds features whith "mean" and "std" in their names.
+2. Reads features.txt file into a data frame and using _grep()_ finds features whith "mean" and "std" in their names. (I chose all the different variations of mean and std).
 Selects only columns of means and stds.
 3. Reads activity_labels.txt into a data frame and uses those descriptive names to name the activities.
 4. A bunch of _gsub()_ change variable names into readable and understandable names.
