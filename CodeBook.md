@@ -1,8 +1,8 @@
 # DATA DICTIONARY - HUMAN ACTIVITY RECOGNITION USING SMARTPHONES DATASET
 
 IndividualsID    int  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Subjects who performed the activity  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01..30    .Unique identifier assigned to each individual
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Subjects who performed the activity  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 01..30    .Unique identifier assigned to each individual
 
 * Activities    factor
     * Activities performed by subjects
