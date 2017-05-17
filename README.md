@@ -13,7 +13,7 @@ Coursera Getting and Cleaning Data course project
 3. CodeBook.md  
     _List of all variables with their types and descriptions_
   
-### Help on understanding and running the run_analysis.R script
+### Understanding and running the run_analysis.R script
 
 **Understanding run_analysis.R script**
 
