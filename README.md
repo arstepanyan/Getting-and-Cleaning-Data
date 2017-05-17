@@ -47,9 +47,18 @@ Selects only columns of means and stds.
     ```R
     address <- "https://s3.amazonaws.com/coursera-uploads/peer-review/c2bb9231d83f0442ee6110a7f7d1d0f1/tidy_data.txt"
     address <- sub("^https", "http", address)
-    data_from_Coursera <- read.table(url(address), header = TRUE)
+    data_from_coursera <- read.table(url(address), header = TRUE)
     View(data)
     ```
+* To check if above two data frames are the same (data vs data_from_coursera), run one of the following commands:
+    ```R
+    all.equal(data, data_from_coursera)
+    ```
+    or
+    ```R
+    identical(data, data_from_coursera)
+    ```
+    Both will return TRUE if data frames are the same.
     
 ## References
 1. David Hood's post  
