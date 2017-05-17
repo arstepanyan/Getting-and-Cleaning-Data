@@ -15,7 +15,7 @@ Coursera Getting and Cleaning Data course project
   
 ### Help on understanding and running the run_analysis.R script
 
-1. **Understanding run_analysis.R script**
+**Understanding run_analysis.R script**
 
 run_analysis.R file has a detailed explanation on how the code works. You can either read the comments in run_analysis.R or follow the summary below.   
 
@@ -34,14 +34,14 @@ Selects only columns of means and stds.
 4. A bunch of _gsub()_s change variable names into readable and understandable names.
 5. Uses _dplyr_ package to group and summarize data. The result is our tidy data. Tidy data is then written into a file named tidy_data.txt in your working directory.
 
-2. **Running run_analysis.R script**  
+**Running run_analysis.R script**  
 
 * Before running run_analysis.R make sure you have Samsung data in your working directory.
 * When you run run_analysis.R the resulting tidy data is written into tidy_data.txt file. This file will be created in your working directory. Make sure you don't have another file with the same name as you will lose it.
-* The command for reading tidy_data.txt into R and looking at it in R would be(_David Hood: https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/_):
+* The command for reading tidy_data.txt into R and looking at it in R would be(_taken from David Hood: https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/_):
     <data <- read.table(file_path, header = TRUE)>
     <View(data)>  
-* To view the data I submitted in Coursera site, run the following code(_David Hood: https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/_):
+* To view the data I submitted in Coursera site, run the following code (taken from [David Hood' s post](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/):
     <address <- "https://s3.amazonaws.com/coursera-uploads/peer-review/c2bb9231d83f0442ee6110a7f7d1d0f1/tidy_data.txt">
     <address <- sub("^https", "http", address)>
     <data <- read.table(url(address), header = TRUE) #if they used some other way of saving the file than a default write.table, this step will be different>
