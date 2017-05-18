@@ -49,7 +49,7 @@ Selects only columns of means and stds.
     address <- "https://s3.amazonaws.com/coursera-uploads/peer-review/c2bb9231d83f0442ee6110a7f7d1d0f1/tidy_data.txt"
     address <- sub("^https", "http", address)
     data_from_coursera <- read.table(url(address), header = TRUE)
-    View(data)
+    View(data_from_coursera)
     ```
 * To check if above two data frames are the same (data vs data_from_coursera), run one of the following commands:
     ```R
